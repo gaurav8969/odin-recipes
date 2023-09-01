@@ -33,6 +33,7 @@ ol, ul {
 p{
     font-family:'Times New Roman', Times, serif;
     color:hsl(180, 100%, 25%);
+    text-align: center;
 }
 .lasagna {
     margin-left:30px; color:rgb(164, 100, 10);
