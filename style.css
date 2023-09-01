@@ -11,21 +11,20 @@ div img{
     border-radius: 50%;
 }
 h1{
-   position: absolute;
-   left:46%;
-   margin:0;
-   top:5%;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
 }
 h2 {
     text-align:center;
   }
-div ul{
-    position:absolute;
-    top:47%;
-    left:40%;
-    margin:0;
+/*.home-page-ul {
+
+}*/
+.home-page-ul {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(0, -50%);
 }
 ol, ul {
     font-family:'Times New Roman', Times, serif;
@@ -53,8 +52,10 @@ p{
 .soup{
     border-radius:10%;
 }
-.header-non-index {
-    text-align:center;
-    position: static;
-    margin:10;
+
+.odin-recipes {
+    position:absolute;
+    top:4%;
+    left:45%;
+    -webkit-text-stroke-color: black;
 }
