@@ -1,0 +1,44 @@
+*{
+    background-color: #eeeeee
+}
+h3, h4, div {
+    text-align: center;
+}
+h2,h3,h4{
+  color:rgb(0, 116, 0);
+}
+div img{
+    border-radius: 50%;
+}
+h1{
+    margin-left:30px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+h2 {
+    text-align:center;
+  }
+ol, ul {
+    text-align:center;
+    list-style: inside;
+    font-family:cursive;
+    font-size:20px;
+    color:green;
+}
+.not-aligned{
+    padding:0px;
+    color:rgb(155, 111, 0);
+}
+p{
+    font-family:cursive;
+    color:hsl(180, 100%, 25%);
+}
+.lasagna {
+    margin-left:30px; color:rgb(164, 100, 10);
+    font-weight:900; -webkit-text-stroke-width: 0px;
+    font-family: cursive;
+}
+.soup{
+    border-radius:10%;
+}
