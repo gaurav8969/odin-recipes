@@ -22,7 +22,7 @@ h2 {
 ol, ul {
     text-align:center;
     list-style: inside;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size:20px;
     color:green;
 }
