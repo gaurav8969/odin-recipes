@@ -1,5 +1,5 @@
 *{
-    background-color: #eeeeee
+    background-color: #eeeeee;
 }
 h3, h4, div {
     text-align: center;
@@ -17,14 +17,11 @@ h1{
 h2 {
     text-align:center;
   }
-/*.home-page-ul {
 
-}*/
-.home-page-ul {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(0, -50%);
+.grid{
+    display:grid;
+    place-items:center;
+    padding:19% 0px;
 }
 ol, ul {
     font-family:'Times New Roman', Times, serif;
@@ -54,8 +51,13 @@ p{
 }
 
 .odin-recipes {
-    position:absolute;
-    top:4%;
-    left:45%;
+    width:220px;
+    margin-left:42.5%;
+    color:red;
     -webkit-text-stroke-color: black;
+}
+.odin-recipes:hover{
+    background-color: orange;
+    color:blue;
+    border-radius:100%;
 }
