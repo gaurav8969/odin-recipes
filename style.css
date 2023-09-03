@@ -21,7 +21,7 @@ h2 {
 .grid{
     display:grid;
     place-items:center;
-    padding:19% 0px;
+    padding:290px 0px;
 }
 ol, ul {
     font-family:'Times New Roman', Times, serif;
@@ -52,7 +52,7 @@ p{
 
 .odin-recipes {
     width:220px;
-    margin-left:42.5%;
+    margin-left:665px;
     color:red;
     -webkit-text-stroke-color: black;
 }
