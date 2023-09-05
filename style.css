@@ -57,12 +57,11 @@ p{
 }
 
 .odin-recipes {
-    /* width:220px; */
-    /* margin-left:665px; */
     color:red;
     -webkit-text-stroke-color: black;
 }
-.odin-recipes:hover{
+
+.odin-recipes span:hover{
     background-color: orange;
     color:blue;
     border-radius:100%;
