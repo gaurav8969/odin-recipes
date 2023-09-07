@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../images/lasagnaMasked.png"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna</title>
@@ -9,21 +10,32 @@
       *{
         background-color: #FAF1E4;
       }
+      .green{
+        margin:0px;
+      }
+      p {
+        font-size:20px;
+        margin:5px;
+      }
+      li {
+        padding-left:20px;
+      }
     </style>
 </head>
 <body>
-  <h1 class="header-non-index lasagna">Lasagna</h1>
-  <div><img src="../images/lasagna.jpg" alt="lasagna"></div>    
+  <h1 style="background-color: green;" class="green lasagna">Lasagna</h1>
+  <div class="green" style="background-color: green;"><img src="../images/lasagna.jpg" alt="lasagna"></div>  
   <h2>Description</h2>
   <p><strong><em>Lasagna</em></strong>, also known as lasagne, is a type of pasta, possibly one of the oldest types, made of very wide, flat sheets.
     Either term can also refer to an Italian dish made of stacked layers of lasagna alternating with fillings such as ragù (ground meats and tomato sauce), béchamel sauce, vegetables, cheeses (which may include ricotta, mozzarella, and parmesan), and seasonings and spices.
     The dish may be topped with grated cheese, which becomes melted during baking.
     Typically cooked pasta is assembled with the other ingredients and then baked in an oven.
     The resulting baked pasta is cut into single-serving square or rectangular portions.</p>
+  <div style="display:inline-block;margin-left:290px;margin-bottom: 10px; margin-top:10px;">  
     <h3 style="font-family: monospace;">Ingredients</h3>
-    <ul class="not-aligned">
+    <ul class="not-aligned" style="display:flex;">
       <li>Meat</li>
-      <li>Onion <em>and</em> Garlic</li>
+      <li>Onion <em>and</em> Garlic </li>
       <li>Tomato Products</li>
       <li>Sugar</li>
       <li>Spice seasonings</li>
@@ -31,14 +43,17 @@
       <li>Cheeses</li>
       <li>Egg</li>
     </ul>
+  </div>
+  <div style="display:inline-block; margin-left:118px;">
     <h3 style="font-weight:900;">Steps</h3>
-    <ol style="padding:0px;color:rgb(111, 92, 65)">
-      <li>Make the meat sauce.</li>
-      <li>Cook the noodles.</li>
-      <li>Make the ricotta mixture.</li>
-      <li>Layer the lasagna according to the recipe instructions.</li>
-      <li>Cover with foil and bake.</li>
-      <li>Let lasagna rest before serving.</li>
+    <ol style="color:rgb(111, 92, 65);display:flex;">
+      <li>Make the meat sauce</li>
+      <li>Cook the noodles</li>
+      <li>Make the ricotta mixture</li>
+      <li>Layer the lasagna</li>
+      <li>Cover with foil and bake</li>
+      <li>Let lasagna rest before serving</li>
     </ol>
+  </div>
 </body>
 </html>
