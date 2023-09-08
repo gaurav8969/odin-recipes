@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrot Soup</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../images/curriedChickenSoupCropped.png">
     <style>
-        *{
-            background-color:rgb(177, 214, 192);
+        * {
+            background-color: rgb(78, 201, 187);
         }
         h2 {
             color:crimson;
@@ -21,47 +22,74 @@
             color:rgb(37, 103, 226);
         }
         ol {
-            color:rgb(191, 0, 255);
+            color:rgb(255, 66, 161);
+        }
+        body {
+            display:flex;
+        }
+        div,li, div > * {
+            background-color:rgb(174, 248, 255);
+        }
+        div {
+            border-radius:50%;
+        }
+        .div1 > *{
+            border-radius:100%;
+            margin-top:48px;
+            margin-left:37px;
+            width:243px;
+        }
+        .div2 > * {
+            border-radius:20%;
+            width: 300px;
+        }
+        .div3 > *, li {
+            border-radius:100%;
         }
     </style>
 </head>
 <body>
-    <h1 style="color:orange;-webkit-text-stroke-color: rgb(255, 0, 0);font-family:Impact;" class="header-non-index">Curried Carrot Soup</h1>
-    <div>
-    <img src="../images/12965_Curried-Carrot-Soup_Heather888_4573347_original-4x3-1-31afc791244847e2b7e92ed53c9a3d9a.jpg" alt="Curried Carrot Soup" height="auto" width="390" class="soup">
+    <div style="margin-right:200px;margin-top:350px;margin-left:20px;width:515px;height:400px;" class="div1">
+        <h3 style="margin-left:58px;margin-bottom:-20px;">Ingredients</h3>
+        <ul>
+            <li>2 tablespoons vegetable oil</li>
+
+            <li>onion, chopped</li>
+
+            <li>tablespoon curry powder</li>
+
+            <li>pounds carrots, chopped</li>
+
+            <li>cups vegetable broth</li>
+
+            <li>cups water, or as needed</li> 
+        </ul>
     </div>
-    <h2>Description</h2>
-    <p>Carrot soup is a soup prepared with carrot as a primary ingredient.
-        It can be prepared as a cream- or broth-style soup. 
-        Additional vegetables, root vegetables and various other ingredients can be used in
-        its preparation.It may be served hot or cold, and several recipes exist. Carrot soup
-        has been described as a "classic" dish in French cuisine.
-    </p>
-    <h3>Ingredients</h3>
-    <ul>
-        <li>2 tablespoons vegetable oil</li>
+    <div class="div2" style="margin-right:200px;display:inline-block;margin-top:30px;width:550px; height:700px;border-radius:20%;">
+        <h1 style="color:orange;-webkit-text-stroke-color: rgb(255, 0, 0);font-family:Impact;margin-left:60px;" class="header-non-index">Curried Carrot Soup</h1>
+        <img src="../images/curriedChickenSoup.jpg" alt="Curried Carrot Soup" height="auto" width="390" class="soup">
+        <h2 style="padding-left:85px;">Description</h2>
+        <p style="width:390px;padding:0 20px;">Carrot soup is a soup prepared with carrot as a primary ingredient.
+            It can be prepared as a cream- or broth-style soup. 
+            Additional vegetables, root vegetables and various other ingredients can be used in
+            its preparation.It may be served hot or cold, and several recipes exist. Carrot soup
+            has been described as a "classic" dish in French cuisine.
+        </p>
+    </div>
 
-        <li>onion, chopped</li>
-
-        <li>tablespoon curry powder</li>
-
-        <li>pounds carrots, chopped</li>
-
-        <li>cups vegetable broth</li>
-
-        <li>cups water, or as needed</li> 
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-        <li>Heat oil in a large pot over medium heat. Saute onion until tender and translucent.
-            Stir in the curry powder. Add the chopped carrots, and stir until the carrots are
-            coated. Pour in the vegetable broth, and simmer until the carrots are soft, about 20
-            minutes.
-        </li>
-        <li>
-            Transfer the carrots and broth to a blender, and puree until smooth.
-            Pour back into the pot, and thin with water to your preferred consistency.
-        </li>
-    </ol>
+    <div class="div3" style="width:500px;height:450px;margin-top:310px;margin-right:15px;">
+        <h3 style="width:100px;margin-left:125px;margin-top:30px;">Steps</h3>
+        <ol style="width:290px;margin-left:10px;list-style-type: decimal;">
+            <li>Heat oil in a large pot over medium heat. Saute onion until tender and translucent.
+                Stir in the curry powder. Add the chopped carrots, and stir until the carrots are
+                coated. Pour in the vegetable broth, and simmer until the carrots are soft, about 20
+                minutes.
+            </li>
+            <li>
+                Transfer the carrots and broth to a blender, and puree until smooth.
+                Pour back into the pot, and thin with water to your preferred consistency.
+            </li>
+        </ol>
+    </div>
 </body>
 </html>
